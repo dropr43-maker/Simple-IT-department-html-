@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Department of Information Technology</title>
+<style>
+:root{--bg:#f6f8fb;--card:#fff;--text:#1b2430;--muted:#5b6675;--brand:#1d4ed8;--brand-text:#fff;--line:#d9e0ea;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f141b;--card:#171e28;--text:#e8edf4;--muted:#9aa6b6;--brand:#3b82f6;--line:#2a3441}}
+:root[data-theme="dark"]{--bg:#0f141b;--card:#171e28;--text:#e8edf4;--muted:#9aa6b6;--brand:#3b82f6;--line:#2a3441}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.6}
+header{background:var(--brand);color:var(--brand-text);padding:2.5rem 1rem 1.5rem;text-align:center}
+header p{margin:.3rem 0 0;opacity:.9}
+nav{position:sticky;top:env(safe-area-inset-top,0px);background:var(--card);border-bottom:1px solid var(--line);display:flex;justify-content:center;gap:1.5rem;padding:.8rem;z-index:5}
+nav a{color:var(--brand);text-decoration:none;font-weight:600}
+nav a:hover{text-decoration:underline}
+main{max-width:900px;margin:0 auto;padding:1rem}
+section{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:1.5rem;margin:1rem 0}
+h1{margin:0;font-size:clamp(1.6rem,5vw,2.4rem)}
+h2{margin-top:0;color:var(--brand)}
+img{max-width:100%;height:auto;border-radius:10px;display:block}
+figcaption{color:var(--muted);font-size:.9rem;margin-top:.5rem}
+.table-wrap{overflow-x:auto}
+table{width:100%;border-collapse:collapse}
+th,td{text-align:left;padding:.65rem .8rem;border-bottom:1px solid var(--line)}
+th{background:var(--brand);color:var(--brand-text)}
+label{display:block;margin:.8rem 0 .25rem;font-weight:600}
+input,textarea{width:100%;padding:.65rem;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--text);font:inherit}
+button{margin-top:1rem;padding:.7rem 1.4rem;border:0;border-radius:8px;background:var(--brand);color:var(--brand-text);font:inherit;font-weight:600;cursor:pointer}
+#thanks{color:var(--brand);font-weight:600;margin-top:1rem}
+footer{text-align:center;color:var(--muted);padding:1.5rem 1rem 2rem;font-size:.9rem}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Department of Information Technology</h1>
+  <p>Learn it. Build it. Secure it.</p>
+</header>
+
+<nav aria-label="Main navigation">
+  <a href="#home">Home</a>
+  <a href="#courses">Courses</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<main>
+  <section id="home">
+    <h2>Welcome</h2>
+    <p>The Department of Information Technology trains students in the skills that power the digital world, from networking and software development to databases and cybersecurity. Our hands-on approach combines classroom theory with practical lab sessions, so graduates are ready for careers in the ICT industry.</p>
+    <figure>
+      <img alt="Illustration of an IT laboratory with rows of computers and a server rack"
+        src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 300'><rect width='600' height='300' fill='%23dbe7fb'/><rect y='230' width='600' height='70' fill='%23b7c7e6'/><rect x='30' y='40' width='90' height='190' rx='6' fill='%231e293b'/><g fill='%2322c55e'><circle cx='45' cy='60' r='4'/><circle cx='45' cy='90' r='4'/><circle cx='45' cy='120' r='4'/></g><g fill='%23334155'><rect x='58' y='54' width='50' height='12'/><rect x='58' y='84' width='50' height='12'/><rect x='58' y='114' width='50' height='12'/><rect x='58' y='144' width='50' height='12'/><rect x='58' y='174' width='50' height='12'/></g><g><rect x='160' y='130' width='110' height='70' rx='5' fill='%231e293b'/><rect x='168' y='138' width='94' height='54' fill='%2360a5fa'/><rect x='205' y='200' width='20' height='16' fill='%23475569'/><rect x='150' y='216' width='130' height='14' rx='4' fill='%2394a3b8'/><rect x='320' y='130' width='110' height='70' rx='5' fill='%231e293b'/><rect x='328' y='138' width='94' height='54' fill='%2334d399'/><rect x='365' y='200' width='20' height='16' fill='%23475569'/><rect x='310' y='216' width='130' height='14' rx='4' fill='%2394a3b8'/><rect x='470' y='130' width='110' height='70' rx='5' fill='%231e293b'/><rect x='478' y='138' width='94' height='54' fill='%23f59e0b'/><rect x='515' y='200' width='20' height='16' fill='%23475569'/><rect x='460' y='216' width='130' height='14' rx='4' fill='%2394a3b8'/></g></svg>">
+      <figcaption>Our IT laboratory: workstations and a server rack for hands-on practice.</figcaption>
+    </figure>
+  </section>
+
+  <section id="courses">
+    <h2>Courses Offered</h2>
+    <ul>
+      <li>Introduction to Information Technology</li>
+      <li>Programming Fundamentals</li>
+      <li>Computer Networking</li>
+      <li>Database Systems</li>
+      <li>Web Development</li>
+      <li>Cybersecurity Fundamentals</li>
+    </ul>
+
+    <h3>Course Codes</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th scope="col">Course Code</th><th scope="col">Course Name</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>IT101</td><td>Introduction to Information Technology</td></tr>
+          <tr><td>IT102</td><td>Programming Fundamentals</td></tr>
+          <tr><td>IT201</td><td>Computer Networking</td></tr>
+          <tr><td>IT202</td><td>Database Systems</td></tr>
+          <tr><td>IT301</td><td>Web Development</td></tr>
+          <tr><td>IT302</td><td>Cybersecurity Fundamentals</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Student Enquiry</h2>
+    <form id="enquiry" onsubmit="event.preventDefault();document.getElementById('thanks').textContent='Thanks! Your enquiry has been received.';this.reset();">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Send Enquiry</button>
+      <p id="thanks" role="status"></p>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 26/00753.hmtlfile.</p>
+</footer>
+
+</body>
+</html>
